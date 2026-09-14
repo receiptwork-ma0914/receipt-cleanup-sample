@@ -26,3 +26,4 @@ Formula results and edit-driven recalculation were checked with Artifact Tool, a
 
 - [WordPress maintenance inventory](./wordpress-inventory/README.md): local JSON export report with fictional inputs and runnable tests.
 - [Screenplay notes to dialogue](./screenplay/README.md): original two-page scene, editable source and beat/continuity check.
+- [Book copy-edit example](./book-editing/README.md): invented before/after passage, author queries and style sheet.

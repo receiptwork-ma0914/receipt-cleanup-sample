@@ -21,3 +21,7 @@ The workbook retains both instances of a repeated receipt ID. It flags a missing
 First agree the receipt count, file quality, required columns, currency, categories, deadline and fixed price. The buyer supplies files they are authorized to share and confirms unclear entries. Delivery includes the workbook and a short list of unresolved items. Bank or brokerage login access is unnecessary for receipt transcription.
 
 Formula results and edit-driven recalculation were checked with Artifact Tool, and both worksheets were visually reviewed. Native Microsoft Excel behavior has not been tested. This sample uses synthetic source text, so it does not demonstrate OCR accuracy on real scans.
+
+## Other service demonstrations
+
+- [WordPress maintenance inventory](./wordpress-inventory/README.md): local JSON export report with fictional inputs and runnable tests.

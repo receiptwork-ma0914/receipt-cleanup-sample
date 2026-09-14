@@ -1,0 +1,7 @@
+[
+  {"name":"fictional-lesson-form","status":"active","version":"1.2.0","update":"available","update_version":"1.3.1","auto_update":"off"},
+  {"name":"fictional-related-lessons","status":"inactive","version":"2.4.0","update":"none","update_version":"","auto_update":"off"},
+  {"name":"fictional-premium-gallery","status":"active","version":"2026.09-beta.2","update":"unavailable","update_version":"","auto_update":"off"},
+  {"name":"fictional-host-cache","status":"must-use","version":"1.0","update":"none","update_version":"","auto_update":"off"},
+  {"name":"fictional-importer","status":"inactive","version":"0.8","update":"available","update_version":"","auto_update":"off"}
+]

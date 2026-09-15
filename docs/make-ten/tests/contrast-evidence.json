@@ -1,0 +1,141 @@
+{
+  "method": "WCAG sRGB relative luminance: (Llighter + 0.05)/(Ldarker + 0.05). Explicit CSS colors only, not computed browser rendering.",
+  "pairs": [
+    {
+      "element": "Core text on page",
+      "foreground": "#153c35",
+      "background": "#f5f1e5",
+      "contrast_ratio": 10.751,
+      "threshold": 4.5,
+      "passes": true
+    },
+    {
+      "element": "Core text on card",
+      "foreground": "#153c35",
+      "background": "#fffdf7",
+      "contrast_ratio": 11.936,
+      "threshold": 4.5,
+      "passes": true
+    },
+    {
+      "element": "Primary button text",
+      "foreground": "#ffffff",
+      "background": "#185648",
+      "contrast_ratio": 8.524,
+      "threshold": 4.5,
+      "passes": true
+    },
+    {
+      "element": "Eyebrow text",
+      "foreground": "#4d685a",
+      "background": "#fffdf7",
+      "contrast_ratio": 5.996,
+      "threshold": 4.5,
+      "passes": true
+    },
+    {
+      "element": "Small text",
+      "foreground": "#4c6257",
+      "background": "#fffdf7",
+      "contrast_ratio": 6.468,
+      "threshold": 4.5,
+      "passes": true
+    },
+    {
+      "element": "Footer text",
+      "foreground": "#566957",
+      "background": "#f5f1e5",
+      "contrast_ratio": 5.233,
+      "threshold": 4.5,
+      "passes": true
+    },
+    {
+      "element": "Slot numeral",
+      "foreground": "#53694d",
+      "background": "#fbfff2",
+      "contrast_ratio": 5.918,
+      "threshold": 4.5,
+      "passes": true
+    },
+    {
+      "element": "Strategy text",
+      "foreground": "#153c35",
+      "background": "#edf2df",
+      "contrast_ratio": 10.619,
+      "threshold": 4.5,
+      "passes": true
+    },
+    {
+      "element": "Thinking card text",
+      "foreground": "#153c35",
+      "background": "#f4ecd7",
+      "contrast_ratio": 10.306,
+      "threshold": 4.5,
+      "passes": true
+    },
+    {
+      "element": "Button/select boundary",
+      "foreground": "#607a55",
+      "background": "#fffdf5",
+      "contrast_ratio": 4.673,
+      "threshold": 3,
+      "passes": true
+    },
+    {
+      "element": "Slot boundary against slot",
+      "foreground": "#607a55",
+      "background": "#fbfff2",
+      "contrast_ratio": 4.689,
+      "threshold": 3,
+      "passes": true
+    },
+    {
+      "element": "Slot boundary against frame",
+      "foreground": "#607a55",
+      "background": "#dfe9ce",
+      "contrast_ratio": 3.781,
+      "threshold": 3,
+      "passes": true
+    },
+    {
+      "element": "Focus ring on card",
+      "foreground": "#2556bd",
+      "background": "#fffdf7",
+      "contrast_ratio": 6.565,
+      "threshold": 3,
+      "passes": true
+    },
+    {
+      "element": "Original seed centre",
+      "foreground": "#fffdf5",
+      "background": "#246751",
+      "contrast_ratio": 6.58,
+      "threshold": 3,
+      "passes": true
+    },
+    {
+      "element": "Added seed centre",
+      "foreground": "#513700",
+      "background": "#e7b342",
+      "contrast_ratio": 5.761,
+      "threshold": 3,
+      "passes": true
+    },
+    {
+      "element": "Active navigation text",
+      "foreground": "#153c35",
+      "background": "#d7e9c8",
+      "contrast_ratio": 9.47,
+      "threshold": 4.5,
+      "passes": true
+    },
+    {
+      "element": "Welcome emphasis text",
+      "foreground": "#327151",
+      "background": "#fffdf7",
+      "contrast_ratio": 5.709,
+      "threshold": 4.5,
+      "passes": true
+    }
+  ]
+}

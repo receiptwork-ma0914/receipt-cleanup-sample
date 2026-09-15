@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="A small, private number lesson: count objects, make ten, and solve garden stories.">
+  <title>Ten Little Seeds</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="model.js"></script>
+  <script defer src="content.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to activity</a>
+<header class="site-header">
+  <a class="brand" href="#" id="home"><span aria-hidden="true" class="sprout">✿</span> Ten Little Seeds</a>
+  <button id="reset" class="quiet">Start over</button>
+</header>
+<main id="main" tabindex="-1">
+  <section id="welcome" class="welcome panel">
+    <p class="eyebrow">A LITTLE GARDEN OF NUMBERS</p>
+    <h1>Small seeds.<br><em>Big discoveries.</em></h1>
+    <p class="intro">Count a little. Grow a little.<br>Find all the ways to make ten.</p>
+    <div class="welcome-art" aria-label="Five seeds and five empty spaces make room for ten">
+      <span>●</span><span>●</span><span>●</span><span>●</span><span>●</span>
+      <span>○</span><span>○</span><span>○</span><span>○</span><span>○</span>
+    </div>
+    <button id="start" class="primary">Let's begin</button>
+    <p class="small">A short lesson to enjoy together. No timer. Try as often as you like.</p>
+  </section>
+  <section id="lesson" hidden>
+    <nav aria-label="Activities" class="activity-nav">
+      <button data-nav="quantity">1 · Grow a number</button>
+      <button data-nav="bonds">2 · Make ten</button>
+      <button data-nav="stories">3 · Garden stories</button>
+    </nav>
+    <div class="lesson-meta">
+      <label for="support">Helping hands
+        <select id="support"><option value="together">Show the steps</option><option value="explore">Let me explore</option></select>
+      </label>
+      <div class="progress-wrap"><span id="progress-text">0 of 16 discoveries</span><progress id="progress" max="16" value="0">0 of 16</progress></div>
+    </div>
+    <section class="panel activity" aria-labelledby="activity-title">
+      <div class="activity-heading"><div><p class="eyebrow" id="stage-label"></p><h1 id="activity-title" tabindex="-1"></h1></div><button id="read" class="quiet" aria-pressed="false">Read aloud</button></div>
+      <p class="prompt" id="prompt"></p>
+      <p id="scaffold" class="scaffold"></p>
+      <div class="model-layout">
+        <div class="frame-area">
+          <p class="frame-instruction" id="frame-instruction">Tap a space to plant a seed. Tap a seed to lift it.</p>
+          <div id="ten-frame" class="ten-frame" role="group" aria-label="Ten-frame, two rows of five"></div>
+          <div class="counter-key" id="counter-key"><span><b class="seed-dot original" aria-hidden="true"></b> Seeds already here</span><span><b class="seed-dot added" aria-hidden="true"></b> Seeds you add</span></div>
+          <div class="count-line"><strong id="quantity-count">0</strong><span id="quantity-words">seeds in the garden</span></div>
+          <p id="model-description" class="small"></p>
+          <div class="counter-actions"><button id="remove">− Lift one</button><button id="add">+ Plant one</button></div>
+        </div>
+        <aside class="thinking-card" aria-label="Think about your model">
+          <p class="eyebrow">LOOK, THEN THINK</p>
+          <p id="model-note"></p>
+          <p id="equation" class="equation" aria-label="Equation"></p>
+          <button id="hint" class="quiet">Give me a hint</button>
+          <button id="demo" class="quiet">Show a small example</button>
+        </aside>
+      </div>
+      <div class="feedback" id="feedback" role="status" aria-live="polite" aria-atomic="true">You can take your time.</div>
+      <div class="bottom-actions"><button id="retry" class="quiet">Try this again</button><button id="check" class="primary">Check my garden</button><button id="next" class="primary" hidden>Next discovery →</button></div>
+    </section>
+  </section>
+  <section id="finish" hidden class="panel welcome">
+    <p class="eyebrow">YOUR GARDEN OF IDEAS</p><h1>Look what<br><em>you explored.</em></h1>
+    <p id="summary" class="intro"></p>
+    <ul class="summary-list"><li>Numbers tell us how many.</li><li>Two parts can make ten.</li><li>Adding grows a group. Taking away makes it smaller.</li></ul>
+    <p>Next: find ten small objects. Split them into two groups. Can you make a new pair?</p>
+    <button id="replay" class="primary">Explore again</button><button id="return" class="quiet">Back to activities</button>
+  </section>
+  <details id="adult-guide" class="adult-guide"><summary>For grown-ups: guide, privacy and references</summary>
+    <p>This original lesson is designed around age six, with an adult available to read or co-play. Start with counting objects one at a time. Reading, numeral recognition and experience vary; adjust the pace.</p>
+    <p>Allow about 8–12 minutes: a short demonstration, four quantity challenges, five make-ten pairs, six stories and a new two-step garden challenge. Pause or replay any activity.</p>
+    <p><strong>Show the steps</strong> displays a strategy throughout. <strong>Let me explore</strong> keeps the same content and makes that strategy available through the Hint button. Either choice can be changed at any time.</p>
+    <p><strong>Privacy:</strong> progress stays in this page's memory only. Refreshing or closing resets it. Start over clears all progress. No accounts, cookies, storage, analytics, chat, uploads or background network requests are used by the lesson. Optional read-aloud plays a bundled recording only when pressed. Press Stop reading to stop it. If audio cannot play, all instructions remain visible.</p>
+    <p>Original code, stories and CSS illustrations are offered under the <a href="LICENSE">MIT licence</a>. Optional synthetic narration was generated locally from the original prompts with eSpeak NG; see <a href="audio/PROVENANCE.md">audio provenance</a> and <a href="audio/LICENSE-original.txt">audio permissions</a>. System fonts are supplied by your device. No outside JavaScript dependencies.</p>
+    <p><strong>Adult references:</strong> <a href="https://www.ncetm.org.uk/classroom-resources/ey-composition/" rel="noreferrer">NCETM: Composition</a> supports showing parts and wholes together. <a href="https://educationendowmentfoundation.org.uk/early-years/maths/use-manipulatives-and-representations-to-develop-understanding" rel="noreferrer">EEF: Use manipulatives and representations to develop understanding</a> supports linking actions on objects to written numbers.</p>
+    <p>This app is a practice model, not a diagnosis or validated intervention. See <a href="EDUCATOR_GUIDE.md">the full educator guide</a>, <a href="README.md">setup notes</a> and <a href="TEST_REPORT.md">the test report</a>.</p>
+  </details>
+</main>
+<footer>Ten Little Seeds · An original, AI-assisted learning sample. Take your time.</footer>
+<audio id="narration" preload="none"></audio>
+<dialog id="example"><h2>A little example</h2><p>There are 3 seeds. Plant 2 more.</p><div class="demo-frame" aria-label="Ten-frame: three original seeds, two added seeds, five empty slots"></div><p>3 seeds and 2 seeds make 5 seeds.</p><p class="equation">3 + 2 = 5</p><p>Count the objects first. The numbers tell the same story.</p><button id="close-example" class="primary">My turn</button></dialog>
+<dialog id="reset-dialog"><h2>Start a new garden?</h2><p>This clears your discoveries and starts the lesson again.</p><button id="cancel-reset" class="quiet">Keep my garden</button><button id="confirm-reset" class="primary">Start over</button></dialog>
+<noscript><p>This lesson needs JavaScript turned on. An adult can use ten real objects and the educator guide for an offline activity.</p></noscript>
+</body></html>

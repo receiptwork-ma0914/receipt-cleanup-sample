@@ -1,0 +1,129 @@
+{
+  "engine": "eSpeak NG 1.52.0",
+  "voice": "en-us+f3",
+  "words_per_minute": 140,
+  "pitch": 60,
+  "amplitude": 85,
+  "files": [
+    {
+      "id": "shapes-demo",
+      "text": "Watch. This circle matches this circle. Now you try.",
+      "wav": "shapes-demo.wav",
+      "duration_seconds": 4.69,
+      "sample_rate": 22050,
+      "peak_pcm": 16704,
+      "wav_bytes": 206876,
+      "wav_sha256": "981bc08768f75df6de9f96da3626d4073bb2c463ae9315942be39e02a2964655"
+    },
+    {
+      "id": "shapes-prompt",
+      "text": "Find the same shape.",
+      "wav": "shapes-prompt.wav",
+      "duration_seconds": 1.948,
+      "sample_rate": 22050,
+      "peak_pcm": 17227,
+      "wav_bytes": 85938,
+      "wav_sha256": "436bf79af20996244be24fbfc2881fda5e721a21d91d65267b7fee23385824ff"
+    },
+    {
+      "id": "sorting-demo",
+      "text": "Watch. Tap a red flower with dots. Then tap the red basket with dots. Now you try.",
+      "wav": "sorting-demo.wav",
+      "duration_seconds": 7.502,
+      "sample_rate": 22050,
+      "peak_pcm": 16661,
+      "wav_bytes": 330900,
+      "wav_sha256": "535cefa529de31bf76bf92c2ae86008ed1cf81c45f60a1e4ecf2a5af56661630"
+    },
+    {
+      "id": "sorting-prompt",
+      "text": "Tap a flower. Tap its matching basket.",
+      "wav": "sorting-prompt.wav",
+      "duration_seconds": 3.594,
+      "sample_rate": 22050,
+      "peak_pcm": 15329,
+      "wav_bytes": 158546,
+      "wav_sha256": "1d11796470ee1dbd4b46c310e330b003755b2c2af52b00ed0956b261ba153da3"
+    },
+    {
+      "id": "counting-demo",
+      "text": "Watch. One flower here. One flower in my garden. They match. Now you try.",
+      "wav": "counting-demo.wav",
+      "duration_seconds": 7.096,
+      "sample_rate": 22050,
+      "peak_pcm": 17900,
+      "wav_bytes": 312976,
+      "wav_sha256": "17e4ce00e03f9086c956e78a2a3c65f87d178c646316e5603e5ffa29be066133"
+    },
+    {
+      "id": "counting-prompt",
+      "text": "Tap to count. Then grow the same number.",
+      "wav": "counting-prompt.wav",
+      "duration_seconds": 3.731,
+      "sample_rate": 22050,
+      "peak_pcm": 17140,
+      "wav_bytes": 164578,
+      "wav_sha256": "a5f4dedabf38ad518b031cf29d260c722286a6336399826b1cefb5e489b39e6d"
+    },
+    {
+      "id": "one",
+      "text": "One.",
+      "wav": "one.wav",
+      "duration_seconds": 0.898,
+      "sample_rate": 22050,
+      "peak_pcm": 17623,
+      "wav_bytes": 39628,
+      "wav_sha256": "59103c4e4ec63426fb3ce76a79bd97acc2bb41d3aeac426fa57e8c14f86aa285"
+    },
+    {
+      "id": "two",
+      "text": "Two.",
+      "wav": "two.wav",
+      "duration_seconds": 0.84,
+      "sample_rate": 22050,
+      "peak_pcm": 11571,
+      "wav_bytes": 37082,
+      "wav_sha256": "f078af5c08475ace316af46f73f886b0d45672a9f517935e9528143dc7696fe5"
+    },
+    {
+      "id": "three",
+      "text": "Three. Three flowers altogether.",
+      "wav": "three.wav",
+      "duration_seconds": 2.912,
+      "sample_rate": 22050,
+      "peak_pcm": 15483,
+      "wav_bytes": 128466,
+      "wav_sha256": "2af21fe48aa3e9a5f3c3b52a9f5dfe8c411a5dbda140e9771c7c47b952b0d24f"
+    },
+    {
+      "id": "retry",
+      "text": "Let us look together. Try again.",
+      "wav": "retry.wav",
+      "duration_seconds": 3.225,
+      "sample_rate": 22050,
+      "peak_pcm": 20514,
+      "wav_bytes": 142284,
+      "wav_sha256": "cb3f54c8730a89cba8fbc4cf7485723ec7736c3a7ffd659622ae59bb7bc8d745"
+    },
+    {
+      "id": "success",
+      "text": "A match!",
+      "wav": "success.wav",
+      "duration_seconds": 1.056,
+      "sample_rate": 22050,
+      "peak_pcm": 13549,
+      "wav_bytes": 46620,
+      "wav_sha256": "88a7520adfa77cd69f273a19c1bb7fa0f08ed15407ee1f92af0db9ff936695f9"
+    },
+    {
+      "id": "complete",
+      "text": "You explored the garden. You can play again, or stop and look for shapes around you.",
+      "wav": "complete.wav",
+      "duration_seconds": 6.632,
+      "sample_rate": 22050,
+      "peak_pcm": 20266,
+      "wav_bytes": 292506,
+      "wav_sha256": "9a747f0b62b3659ff64bc5de51e8ff002a264c88811ddd2ecd66f53ed60ae80d"
+    }
+  ]
+}

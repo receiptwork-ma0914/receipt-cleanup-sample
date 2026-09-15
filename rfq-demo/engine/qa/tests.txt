@@ -1,0 +1,15 @@
+test_bad_layout_and_catalog_fail_before_export (test_quote.QuotationTests.test_bad_layout_and_catalog_fail_before_export) ... ok
+test_bad_quantity_price_and_unapproved_are_row_exceptions (test_quote.QuotationTests.test_bad_quantity_price_and_unapproved_are_row_exceptions) ... ok
+test_cli_json_exit_zero_even_with_exceptions_and_fatal_preserves_output (test_quote.QuotationTests.test_cli_json_exit_zero_even_with_exceptions_and_fatal_preserves_output) ... ok
+test_decimal_half_up_boundary (test_quote.QuotationTests.test_decimal_half_up_boundary) ... ok
+test_exact_code_no_substitution_and_conservative_description (test_quote.QuotationTests.test_exact_code_no_substitution_and_conservative_description) ... ok
+test_formula_like_text_never_becomes_formula (test_quote.QuotationTests.test_formula_like_text_never_becomes_formula) ... ok
+test_one_row_layout_is_supported (test_quote.QuotationTests.test_one_row_layout_is_supported) ... ok
+test_standard_rows_and_every_requested_exception (test_quote.QuotationTests.test_standard_rows_and_every_requested_exception) ... ok
+test_unseen_same_layout_fixture (test_quote.QuotationTests.test_unseen_same_layout_fixture) ... ok
+test_xlsx_numeric_snapshot_bilingual_blank_exceptions_and_no_formulas (test_quote.QuotationTests.test_xlsx_numeric_snapshot_bilingual_blank_exceptions_and_no_formulas) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.331s
+
+OK

@@ -1,0 +1,7 @@
+runtime/
+evidence/*-raw.log
+evidence/*-raw.json
+evidence/npm-install.log
+__pycache__/
+.venv/
+artifacts/

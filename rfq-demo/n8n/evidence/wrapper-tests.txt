@@ -1,0 +1,9 @@
+test_catalogue_is_allowlisted (__main__.WrapperContract.test_catalogue_is_allowlisted) ... ok
+test_rejects_browser_origin_post (__main__.WrapperContract.test_rejects_browser_origin_post) ... ok
+test_rejects_invalid_pdf (__main__.WrapperContract.test_rejects_invalid_pdf) ... ok
+test_standard_pdf_roundtrip (__main__.WrapperContract.test_standard_pdf_roundtrip) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 2.578s
+
+OK

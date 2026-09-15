@@ -1,0 +1,9 @@
+code,description_en,description_ar,unit,unit_price_aed,price_approved
+CBL-001,Copper cable 2.5 mm,كابل نحاسي 2.5 مم,M,1.00,yes
+BRK-010,Single pole breaker 10 A,قاطع أحادي القطب 10 أمبير,EA,18.375,yes
+SOCK-001,White wall socket,مقبس حائط أبيض,EA,12.50,yes
+NOPRICE-01,Terminal block,كتلة توصيل,EA,,yes
+DUP-001,Cable gland small,جلاند كابل صغير,EA,2.00,yes
+DUP-001,Cable gland large,جلاند كابل كبير,EA,3.00,yes
+FREE-001,Sample identification tag,بطاقة تعريف تجريبية,EA,0.00,yes
+HOLD-001,Plastic cable clip,مشبك كابل بلاستيكي,EA,0.35,no

@@ -1,0 +1,18 @@
+{
+  "n8n_version": "2.39.5",
+  "command": "export:workflow --id=rfqDemoStandard01",
+  "imported_nodes_equal_exported": true,
+  "imported_connections_equal_exported": true,
+  "node_count": 4,
+  "credential_references": false,
+  "included_fields": [
+    "id",
+    "name",
+    "nodes",
+    "connections",
+    "settings",
+    "active",
+    "pinData",
+    "tags"
+  ]
+}

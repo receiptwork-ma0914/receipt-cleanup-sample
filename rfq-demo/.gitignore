@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+n8n/runtime/
+n8n/artifacts/
+*.log

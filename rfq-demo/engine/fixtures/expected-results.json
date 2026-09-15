@@ -1,0 +1,18 @@
+{
+  "standard": {
+    "rows": 8,
+    "matched_rows": 3,
+    "exception_rows": 5,
+    "subtotal_aed": "36.90",
+    "amounts": ["0.15", "36.75", null, null, null, null, null, "0.00"],
+    "reasons": [[], [], ["UNKNOWN_CODE"], ["MISSING_PRICE"], ["AMBIGUOUS_CODE"], ["DESCRIPTION_CONFLICT"], ["UNIT_CONFLICT"], []]
+  },
+  "unseen": {
+    "rows": 4,
+    "matched_rows": 3,
+    "exception_rows": 1,
+    "subtotal_aed": "56.89",
+    "amounts": ["37.50", "1.01", "18.38", null],
+    "reasons": [[], [], [], ["PRICE_NOT_APPROVED"]]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "n8n_version": "2.39.5",
+  "node_version": "26.5.0",
+  "mode": "cli",
+  "status": "success",
+  "finished": true,
+  "started_at": "2026-09-15T13:14:30.874Z",
+  "stopped_at": "2026-09-15T13:14:31.139Z",
+  "fixture": "unseen",
+  "synthetic_only": true,
+  "human_reviewed": false,
+  "nodes": [
+    {
+      "name": "Run synthetic RFQ",
+      "status": "success",
+      "duration_ms": 1
+    },
+    {
+      "name": "Load synthetic PDF",
+      "status": "success",
+      "duration_ms": 12
+    },
+    {
+      "name": "Create AED review draft",
+      "status": "success",
+      "duration_ms": 237
+    },
+    {
+      "name": "Download bilingual Excel",
+      "status": "success",
+      "duration_ms": 12
+    }
+  ],
+  "binary_verification": {
+    "pdf": {
+      "bytes": 2016,
+      "sha256": "4f4d5859161474c766345fd049ebd14521e9864756b6e86a714224a34e63c77e",
+      "matches_engine": true,
+      "mime_type": "application/pdf"
+    },
+    "xlsx": {
+      "bytes": 7364,
+      "sha256": "db781ae412e757eb2d7f5713c24d8ee5ee2b08e3832888f074b731290852a62b",
+      "matches_engine": true,
+      "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    }
+  },
+  "execution_id": "3",
+  "engine_result": {
+    "status": "draft",
+    "rfq_id": "DEMO-UNSEEN-002",
+    "currency": "AED",
+    "rows": 4,
+    "matched_rows": 3,
+    "exception_rows": 1,
+    "subtotal_aed": "56.89",
+    "items": [
+      {
+        "line": 1,
+        "code": "SOCK-001",
+        "description": "White wall socket",
+        "quantity_raw": "3",
+        "unit": "EA",
+        "status": "matched",
+        "reasons": [],
+        "description_ar": "مقبس حائط أبيض",
+        "catalog_description": "White wall socket",
+        "catalog_unit": "EA",
+        "quantity": "3",
+        "unit_price_aed": "12.50",
+        "amount_aed": "37.50",
+        "catalog_row": 4
+      },
+      {
+        "line": 2,
+        "code": "CBL-001",
+        "description": "Copper cable 2.5 mm",
+        "quantity_raw": "1.005",
+        "unit": "M",
+        "status": "matched",
+        "reasons": [],
+        "description_ar": "كابل نحاسي 2.5 مم",
+        "catalog_description": "Copper cable 2.5 mm",
+        "catalog_unit": "M",
+        "quantity": "1.005",
+        "unit_price_aed": "1.00",
+        "amount_aed": "1.01",
+        "catalog_row": 2
+      },
+      {
+        "line": 3,
+        "code": "BRK-010",
+        "description": "Single pole breaker 10 A",
+        "quantity_raw": "1",
+        "unit": "EA",
+        "status": "matched",
+        "reasons": [],
+        "description_ar": "قاطع أحادي القطب 10 أمبير",
+        "catalog_description": "Single pole breaker 10 A",
+        "catalog_unit": "EA",
+        "quantity": "1",
+        "unit_price_aed": "18.375",
+        "amount_aed": "18.38",
+        "catalog_row": 3
+      },
+      {
+        "line": 4,
+        "code": "HOLD-001",
+        "description": "Plastic cable clip",
+        "quantity_raw": "10",
+        "unit": "EA",
+        "status": "review",
+        "reasons": [
+          "PRICE_NOT_APPROVED"
+        ],
+        "description_ar": "مشبك كابل بلاستيكي",
+        "catalog_description": "Plastic cable clip",
+        "catalog_unit": "EA",
+        "quantity": "10",
+        "unit_price_aed": null,
+        "amount_aed": null,
+        "catalog_row": 9
+      }
+    ]
+  },
+  "expected_fixture_summary_matches": true
+}

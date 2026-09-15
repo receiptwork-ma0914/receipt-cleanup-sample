@@ -1,0 +1,137 @@
+{
+  "name": "Receipt Work - synthetic RFQ to AED Excel (unseen)",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "manual-start",
+      "name": "Run synthetic RFQ",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "url": "http://127.0.0.1:8792/fixtures/unseen.pdf",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "file",
+              "outputPropertyName": "data"
+            }
+          },
+          "timeout": 10000
+        }
+      },
+      "id": "load-pdf",
+      "name": "Load synthetic PDF",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        240,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8792/quote?catalog=approved",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/pdf"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "binaryData",
+        "inputDataFieldName": "data",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "json"
+            }
+          },
+          "timeout": 40000
+        }
+      },
+      "id": "create-quote",
+      "name": "Create AED review draft",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        480,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "url": "={{ $json.artifact_url }}",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "file",
+              "outputPropertyName": "data"
+            }
+          },
+          "timeout": 10000
+        }
+      },
+      "id": "download-xlsx",
+      "name": "Download bilingual Excel",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        720,
+        0
+      ]
+    }
+  ],
+  "connections": {
+    "Run synthetic RFQ": {
+      "main": [
+        [
+          {
+            "node": "Load synthetic PDF",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Load synthetic PDF": {
+      "main": [
+        [
+          {
+            "node": "Create AED review draft",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create AED review draft": {
+      "main": [
+        [
+          {
+            "node": "Download bilingual Excel",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "saveManualExecutions": true
+  },
+  "active": false,
+  "pinData": {},
+  "tags": [],
+  "id": "rfqDemoUnseen001"
+}

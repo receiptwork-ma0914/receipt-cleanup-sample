@@ -1,0 +1,17 @@
+{
+  "public_preview": "https://receiptwork-ma0914.github.io/receipt-cleanup-sample/sorting-garden/",
+  "deployed_app_commit": "bd29756bb875619166639016dea88f0dc236b01d",
+  "github_pages_workflow_run": "34920791323",
+  "workflow_status": "success",
+  "workflow_verification_source": "Root agent reported verified GitHub Pages workflow success.",
+  "http_evidence": "public-preview-http.json",
+  "browser_evidence": "public-smoke.txt",
+  "browser_steps": [
+    "Welcome",
+    "Garden map",
+    "Shape beds",
+    "My turn",
+    "Choose circle"
+  ],
+  "observed_feedback": "Yes! Both are circles."
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "path": "index.html",
+    "status": 200,
+    "mime": "text/html",
+    "bytes": 719,
+    "matches_file": true
+  },
+  {
+    "path": "style.css",
+    "status": 200,
+    "mime": "text/css",
+    "bytes": 10036,
+    "matches_file": true,
+    "checked_utc": "2026-09-15T02:03:40.701013+00:00",
+    "sha256": "281fe9193bdc4f4ded66c3ccd4211922c5ba9f6b981871dbada9d9caf61d9f51"
+  },
+  {
+    "path": "app.mjs",
+    "status": 200,
+    "mime": "text/javascript",
+    "bytes": 21487,
+    "matches_file": true,
+    "checked_utc": "2026-09-15T02:03:40.699930+00:00",
+    "sha256": "58b11441ddd8a0886c18bd38cd89337a268b81d1a6f6ec316704955f02eaa04d"
+  },
+  {
+    "path": "model.mjs",
+    "status": 200,
+    "mime": "text/javascript",
+    "bytes": 4422,
+    "matches_file": true
+  },
+  {
+    "path": "content.mjs",
+    "status": 200,
+    "mime": "text/javascript",
+    "bytes": 1432,
+    "matches_file": true
+  },
+  {
+    "path": "assets/audio/shapes-demo.wav",
+    "status": 200,
+    "mime": "audio/x-wav",
+    "bytes": 206876,
+    "matches_file": true
+  },
+  {
+    "path": "assets/audio/sorting-demo.wav",
+    "status": 200,
+    "mime": "audio/x-wav",
+    "bytes": 330900,
+    "matches_file": true
+  },
+  {
+    "path": "assets/audio/counting-demo.wav",
+    "status": 200,
+    "mime": "audio/x-wav",
+    "bytes": 312976,
+    "matches_file": true
+  }
+]

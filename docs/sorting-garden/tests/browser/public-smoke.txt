@@ -1,0 +1,34 @@
+- banner:
+  - generic: little garden
+  - button "Mute sound":
+    - generic: Sound on
+  - button "Grown-up exit to start":
+    - generic: Grown-up exit
+- main:
+  - heading "Shape beds" [level=1]
+  - img "Practice step 1 of 4"
+  - paragraph: Find the same shape.
+  - paragraph: Look at the shape in the garden bed.
+  - generic: Match this
+  - generic "Shape choices":
+    - button "Choose the square" [disabled]:
+    - button "Choose the circle" [disabled]:
+    - button "Choose the triangle" [disabled]:
+  - status:
+    - generic: Yes! Both are circles.
+  - button "Try a new one" [active]:
+    - text: Try a new one
+  - generic "Activity tools":
+    - button "Replay the current spoken prompt":
+      - text: Hear again
+    - button "Show a visual hint":
+      - text: Show me
+    - button "Reset this activity":
+      - text: Start again
+    - button "Leave this activity for the garden":
+      - text: Garden
+  - paragraph: Touch or use Tab and Enter. Sound is optional. A grown-up can point and count with you.
+- contentinfo:
+  - text: A little practice. Together.
+  - text: No scores. Stop whenever you like.
+  - button "Grown-up guide"

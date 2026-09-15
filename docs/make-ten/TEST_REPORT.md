@@ -2,7 +2,15 @@
 
 ## Evidence status
 
-Automated source/model checks and agent-operated real-browser walkthroughs were performed on 15 September 2026 UTC. No children participated. Confirmed browser results and screenshots are recorded below; remaining checks are explicitly marked pending or limited. Public deployment must be completed before submission. Source and simulated-DOM tests are distinguished from real-browser observations.
+Automated source/model checks and agent-operated real-browser walkthroughs were performed on 15 September 2026 UTC. No children participated. Confirmed browser results and screenshots are recorded below; remaining checks are explicitly marked pending or limited. The public HTTPS preview and an agent-operated public-browser smoke test were also verified. Source and simulated-DOM tests are distinguished from real-browser observations.
+
+## Public HTTPS verification
+
+Preview: **[https://receiptwork-ma0914.github.io/receipt-cleanup-sample/make-ten/](https://receiptwork-ma0914.github.io/receipt-cleanup-sample/make-ten/)**. GitHub Pages workflow `34920791323` succeeded for source commit `bd29756bb875619166639016dea88f0dc236b01d`.
+
+The [anonymous HTTP evidence](tests/browser/public-preview-http.json) was captured at **2026-09-15T02:22:08.836733+00:00**, using GET requests without cookies or authentication. The four Make Ten URLs checked (`index.html`, `app.js`, `styles.css`, `audio/quantity-0.mp3`) each returned HTTP 200 and matched the reviewed source bytes. This checks representative public assets; it is not an exhaustive network audit or a promise of future host uptime.
+
+The separate [public-browser DOM snapshot](tests/browser/ten-public-smoke.txt) records the result of an agent-operated **Begin → My turn → check zero with Enter** smoke test. The empty ten-frame was accepted, Next discovery held focus, and both visible text and the accessible progressbar showed **1 of 16 discoveries**. The complete interaction walkthrough and nine viewport measurements below were performed locally against the reviewed source; only the described smoke flow was rerun on the public deployment. The archive documentation includes this later deployment evidence; the app code was unchanged.
 
 ## Automated results actually run
 
@@ -113,7 +121,7 @@ Use actual browser names/versions, date and observed outcomes. Do not substitute
 | Reduced motion | Actual default browser preference and computed animation/transition states inspected in nine documents; source reduce rule audited | Zero computed motion; preference emulation not performed |
 | Optional audio | Activate Read aloud then Stop reading; inspect control state | Explicit play/stop UI verified. Matching audio hashes/strings and unavailable fallback tested in simulated DOM. No auditory listening review or forced browser playback failure |
 | Privacy / network | Source inspection for personal-data fields, analytics, storage, remote grading or child-facing external links | Core source has no data-entry fields, remote requests or storage calls. Browser network traffic audit not performed |
-| Public HTTPS preview | Open signed-out public URL; refresh; verify relative scripts/docs work and core lesson has no server dependency | Pending |
+| Public HTTPS preview | Anonymous GET of four representative assets; public browser Begin → My turn → zero Check with Enter | Passed HTTP 200/source-byte checks and public zero smoke flow. Post-progress refresh and exhaustive document links were not separately checked in the public browser |
 
 ## Numbered screenshot walkthrough
 

@@ -1,0 +1,37 @@
+[
+  {
+    "file": "01-shapes.jpg",
+    "format": "JPEG",
+    "bytes": 39097,
+    "sha256": "685a363e41689276e559a17f1ea9c49b83b67972afa460d2be2c78d164e6b1d8",
+    "operation": "Extension corrected only; original screenshot bytes unchanged."
+  },
+  {
+    "file": "02-sorting.jpg",
+    "format": "JPEG",
+    "bytes": 39333,
+    "sha256": "c2d87c53647fbfbe2095ef5cd8afb3a477f5f98a826b70e2b2558e7a66559753",
+    "operation": "Extension corrected only; original screenshot bytes unchanged."
+  },
+  {
+    "file": "03-counting.jpg",
+    "format": "JPEG",
+    "bytes": 36518,
+    "sha256": "9a87d291d63950403fccf4633d95b18b43932dd73cd65666c712e30e1d7fea7f",
+    "operation": "Extension corrected only; original screenshot bytes unchanged."
+  },
+  {
+    "file": "04-mobile.jpg",
+    "format": "JPEG",
+    "bytes": 27881,
+    "sha256": "d466afcc2af9ffbc09e2b688d850602456683bd3cbb6710f3caecbbadef48fe5",
+    "operation": "Extension corrected only; original screenshot bytes unchanged."
+  },
+  {
+    "file": "05-summary.jpg",
+    "format": "JPEG",
+    "bytes": 35661,
+    "sha256": "5a2aec3f317fa37ef12057a2b0200f88f749ff96ba4af9763a8634786a34abd1",
+    "operation": "Extension corrected only; original screenshot bytes unchanged."
+  }
+]

@@ -1,0 +1,63 @@
+- link "Skip to activity":
+  - /url: "#main"
+- banner:
+  - link "Ten Little Seeds":
+    - /url: "#"
+    - generic: ✿
+    - text: Ten Little Seeds
+  - button "Start over"
+- main:
+  - navigation "Activities":
+    - button "1 · Grow a number"
+    - button "2 · Make ten"
+    - button "3 · Garden stories"
+  - text: Helping hands
+  - combobox "Helping hands":
+    - option "Show the steps" [selected]
+    - option "Let me explore"
+  - text: 1 of 16 discoveries
+  - progressbar: 1 of 16 discoveries
+  - region "Can you grow 0?":
+    - paragraph: GROW A NUMBER · 1 OF 4
+    - heading "Can you grow 0?" [level=1]
+    - button "Read aloud"
+    - paragraph: Plant 0 seeds in the garden.
+    - paragraph: Zero means no seeds. An empty frame shows zero.
+    - paragraph: Tap a space to plant a seed. Tap a seed to lift it.
+    - group "Ten-frame, two rows of five":
+      - button "Space 1, empty, tap to plant":
+        - generic: "1"
+      - button "Space 2, empty, tap to plant":
+        - generic: "2"
+      - button "Space 3, empty, tap to plant":
+        - generic: "3"
+      - button "Space 4, empty, tap to plant":
+        - generic: "4"
+      - button "Space 5, empty, tap to plant":
+        - generic: "5"
+      - button "Space 6, empty, tap to plant":
+        - generic: "6"
+      - button "Space 7, empty, tap to plant":
+        - generic: "7"
+      - button "Space 8, empty, tap to plant":
+        - generic: "8"
+      - button "Space 9, empty, tap to plant":
+        - generic: "9"
+      - button "Space 10, empty, tap to plant":
+        - generic: "10"
+    - strong: "0"
+    - generic: seeds in the garden
+    - paragraph: 0 filled spaces and 10 empty spaces.
+    - button "− Lift one" [disabled]
+    - button "+ Plant one"
+    - complementary "Think about your model":
+      - paragraph: LOOK, THEN THINK
+      - paragraph: Your target is 0. Your garden has 0.
+      - paragraph: 0 seeds
+      - button "Give me a hint"
+      - button "Show a small example"
+    - status: Yes! Zero means no seeds. An empty garden shows 0.
+    - button "Try this again"
+    - button "Next discovery →" [active]
+  - 'generic "For grown-ups: guide, privacy and references"'
+- contentinfo: Ten Little Seeds · An original, AI-assisted learning sample. Take your time.

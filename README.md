@@ -27,3 +27,6 @@ Formula results and edit-driven recalculation were checked with Artifact Tool, a
 - [WordPress maintenance inventory](./wordpress-inventory/README.md): local JSON export report with fictional inputs and runnable tests.
 - [Screenplay notes to dialogue](./screenplay/README.md): original two-page scene, editable source and beat/continuity check.
 - [Book copy-edit example](./book-editing/README.md): invented before/after passage, author queries and style sheet.
+- [Design samples](./design-portfolio/README.md): original posters and a fictional community-event flyer.
+- [Motion-graphics sample](./video-portfolio/README.md): a silent 30-second original vertical video, source and verification notes.
+- [Interactive learning samples](https://receiptwork-ma0914.github.io/receipt-cleanup-sample/): Little Garden (shapes, sorting and counting) and Ten Little Seeds (quantities, number bonds and stories). These are original AI-assisted demonstrations, with no claim of child research or learning gains.

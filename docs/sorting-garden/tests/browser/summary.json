@@ -1,0 +1,14 @@
+{
+  "count": 9,
+  "browser": {
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "platform": "MacIntel",
+    "devicePixelRatio": 2
+  },
+  "allWidthsExact": true,
+  "allNoHorizontalOverflow": true,
+  "allButtonsAtLeast64CssPx": true,
+  "allZeroNonzeroMotionElements": true,
+  "reducedMotionPreferenceEmulated": false,
+  "method": "Root-operated same-origin browser iframe checks; snapshots of all three activities at three CSS widths, not physical mobile-device tests."
+}

@@ -1,0 +1,46 @@
+{
+  "checked_utc": "2026-09-15T02:22:08.836733+00:00",
+  "method": "Anonymous HTTP GET with no cookies or authentication; payloads matched reviewed source bytes.",
+  "results": [
+    {
+      "url": "https://receiptwork-ma0914.github.io/receipt-cleanup-sample/sorting-garden/index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 719,
+      "sha256": "35d1c65509392d2802bce2c0d960f57c004f11687e06ae92aa9e4ae200cfdad6",
+      "matches_reviewed_source": true
+    },
+    {
+      "url": "https://receiptwork-ma0914.github.io/receipt-cleanup-sample/sorting-garden/app.mjs",
+      "status": 200,
+      "content_type": "text/javascript; charset=utf-8",
+      "bytes": 21506,
+      "sha256": "d13c79784073167d2a94b081e967c8644928cda119f4c923dfbf127a9f7341e7",
+      "matches_reviewed_source": true
+    },
+    {
+      "url": "https://receiptwork-ma0914.github.io/receipt-cleanup-sample/sorting-garden/model.mjs",
+      "status": 200,
+      "content_type": "text/javascript; charset=utf-8",
+      "bytes": 4422,
+      "sha256": "b863f7f7ca7b07c905350b4561a2f31c87bf91a75bc27498282ec7b6a5e6c1ac",
+      "matches_reviewed_source": true
+    },
+    {
+      "url": "https://receiptwork-ma0914.github.io/receipt-cleanup-sample/sorting-garden/style.css",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "bytes": 10036,
+      "sha256": "281fe9193bdc4f4ded66c3ccd4211922c5ba9f6b981871dbada9d9caf61d9f51",
+      "matches_reviewed_source": true
+    },
+    {
+      "url": "https://receiptwork-ma0914.github.io/receipt-cleanup-sample/sorting-garden/assets/audio/shapes-demo.wav",
+      "status": 200,
+      "content_type": "audio/wav",
+      "bytes": 206876,
+      "sha256": "981bc08768f75df6de9f96da3626d4073bb2c463ae9315942be39e02a2964655",
+      "matches_reviewed_source": true
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "method": "WCAG relative luminance and (Llighter+0.05)/(Ldarker+0.05), sRGB; known source colours only, not a screenshot or rendered-page audit. Normal text threshold 4.5:1; active control/pattern/focus graphics 3:1. Disabled/inactive and decorative borders excluded.",
+  "checked_utc": "2026-09-15T02:01:14.247073+00:00",
+  "results": [
+    {
+      "pair": "Body text / cream",
+      "foreground": "#213e32",
+      "background": "#f8f4e8",
+      "contrast": 10.611,
+      "threshold": 4.5,
+      "passes": true
+    },
+    {
+      "pair": "Body text / paper",
+      "foreground": "#213e32",
+      "background": "#fffdf6",
+      "contrast": 11.464,
+      "threshold": 4.5,
+      "passes": true
+    },
+    {
+      "pair": "Secondary text / cream",
+      "foreground": "#526551",
+      "background": "#f8f4e8",
+      "contrast": 5.719,
+      "threshold": 4.5,
+      "passes": true
+    },
+    {
+      "pair": "Secondary text / paper",
+      "foreground": "#526551",
+      "background": "#fffdf6",
+      "contrast": 6.179,
+      "threshold": 4.5,
+      "passes": true
+    },
+    {
+      "pair": "Secondary text / green card",
+      "foreground": "#526551",
+      "background": "#e9eee0",
+      "contrast": 5.322,
+      "threshold": 4.5,
+      "passes": true
+    },
+    {
+      "pair": "Primary button label / green",
+      "foreground": "#ffffff",
+      "background": "#254f3d",
+      "contrast": 9.274,
+      "threshold": 4.5,
+      "passes": true
+    },
+    {
+      "pair": "Primary button hover label",
+      "foreground": "#ffffff",
+      "background": "#173e2c",
+      "contrast": 11.919,
+      "threshold": 4.5,
+      "passes": true
+    },
+    {
+      "pair": "Soft button label",
+      "foreground": "#213e32",
+      "background": "#e8eddf",
+      "contrast": 9.785,
+      "threshold": 4.5,
+      "passes": true
+    },
+    {
+      "pair": "Standard button hover label",
+      "foreground": "#213e32",
+      "background": "#edf1df",
+      "contrast": 10.139,
+      "threshold": 4.5,
+      "passes": true
+    },
+    {
+      "pair": "Feedback text",
+      "foreground": "#213e32",
+      "background": "#e9eee0",
+      "contrast": 9.874,
+      "threshold": 4.5,
+      "passes": true
+    },
+    {
+      "pair": "Basket button label",
+      "foreground": "#213e32",
+      "background": "#f7eddf",
+      "contrast": 10.076,
+      "threshold": 4.5,
+      "passes": true
+    },
+    {
+      "pair": "Guide link text",
+      "foreground": "#145577",
+      "background": "#f8f4e8",
+      "contrast": 7.358,
+      "threshold": 4.5,
+      "passes": true
+    },
+    {
+      "pair": "Focus outline / cream",
+      "foreground": "#0c6489",
+      "background": "#f8f4e8",
+      "contrast": 5.968,
+      "threshold": 3,
+      "passes": true
+    },
+    {
+      "pair": "Focus outline / paper",
+      "foreground": "#0c6489",
+      "background": "#fffdf6",
+      "contrast": 6.448,
+      "threshold": 3,
+      "passes": true
+    },
+    {
+      "pair": "Focus outline / soft button",
+      "foreground": "#0c6489",
+      "background": "#e8eddf",
+      "contrast": 5.504,
+      "threshold": 3,
+      "passes": true
+    },
+    {
+      "pair": "Active control border / paper",
+      "foreground": "#254f3d",
+      "background": "#fffdf6",
+      "contrast": 9.112,
+      "threshold": 3,
+      "passes": true
+    },
+    {
+      "pair": "Shape outline / yellow fill",
+      "foreground": "#254f3d",
+      "background": "#e8b951",
+      "contrast": 5.074,
+      "threshold": 3,
+      "passes": true
+    },
+    {
+      "pair": "Flower dots / red",
+      "foreground": "#fff7df",
+      "background": "#a83740",
+      "contrast": 5.972,
+      "threshold": 3,
+      "passes": true
+    },
+    {
+      "pair": "Flower stripes / blue",
+      "foreground": "#fff7df",
+      "background": "#25688d",
+      "contrast": 5.698,
+      "threshold": 3,
+      "passes": true
+    },
+    {
+      "pair": "Selected control border / gold",
+      "foreground": "#254f3d",
+      "background": "#f9e3a5",
+      "contrast": 7.313,
+      "threshold": 3,
+      "passes": true
+    },
+    {
+      "pair": "Newly counted outline / highlighted fill",
+      "foreground": "#254f3d",
+      "background": "#ffecb4",
+      "contrast": 7.909,
+      "threshold": 3,
+      "passes": true
+    },
+    {
+      "pair": "Empty counting placeholder border / patch",
+      "foreground": "#526551",
+      "background": "#edf1e3",
+      "contrast": 5.478,
+      "threshold": 3,
+      "passes": true
+    }
+  ]
+}

@@ -30,9 +30,13 @@ python3 package.py
 
 `index.html` can also be opened directly from disk; local classic scripts are used rather than ES modules. HTTP serving is recommended for a consistent preview. Core interactions work offline once the files are local. No service worker or offline cache is installed.
 
-## Public deployment
+## Public preview and deployment
 
-Copy the contents of `dist/` to a static HTTPS host, including documentation and any screenshots. All assets and in-app document links are relative: the site can live at `/make-ten/` or another directory without configuration changes. No paid hosting or requester-account access is needed. The review package must include an actual public HTTPS preview URL separately; it is a release gate, not fulfilled by a localhost URL.
+**Live preview: [https://receiptwork-ma0914.github.io/receipt-cleanup-sample/make-ten/](https://receiptwork-ma0914.github.io/receipt-cleanup-sample/make-ten/)** — public HTTPS, no login required.
+
+Verified on 15 September 2026 UTC: anonymous HTTP requests without cookies returned 200 for the checked HTML, JavaScript, stylesheet and sample MP3, with payloads matching reviewed source bytes. An agent-operated public-browser smoke test completed Begin → My turn → zero Check using Enter; visible and accessible progress both showed 1 of 16. Evidence is in `tests/browser/public-preview-http.json` and `tests/browser/ten-public-smoke.txt`; see `TEST_REPORT.md` for scope and limitations.
+
+To deploy another copy, place the contents of `dist/` on a static HTTPS host, including documentation and screenshots. All assets and in-app document links are relative: the site can live at `/make-ten/` or another directory without configuration changes. No paid hosting or requester-account access is needed.
 
 ## Browser expectations
 
@@ -51,13 +55,14 @@ Progress exists only in page memory. Refresh, closing or Start over clears it. T
 
 ## Known limitations
 
-- Bundled narration uses a synthetic formant voice, whose sound may be unfamiliar. Browser playback and auditory review remain part of manual QA; text and adult co-reading are the fallback.
+- Bundled narration uses a synthetic formant voice, whose sound may be unfamiliar. The explicit browser play/stop controls were checked, but auditory listening quality was not reviewed; text and adult co-reading are the fallback.
 - An adult may need to explain words or help use a keyboard. The app does not assess a child's readiness.
 - The model represents adding to and taking from one bounded group, rather than every mathematical interpretation of addition/subtraction.
 - Automated domain tests cannot establish learning effectiveness, full assistive-technology compatibility, or touch/keyboard/browser usability. Actual manual results are recorded separately.
 
 ## Included documents
 
+- `SUBMISSION.md`: public preview, package contents and review limitations.
 - `EDUCATOR_GUIDE.md`: objectives, walkthrough, adaptations, sources and an offline follow-up.
 - `TEST_REPORT.md`: acceptance-to-evidence mapping and honest test status.
 - `LICENSE`: MIT permission for original code, content and CSS artwork.

@@ -1,0 +1,39 @@
+{
+  "checked_utc": "2026-09-15T02:22:08.836733+00:00",
+  "method": "Anonymous HTTP GET with no cookies or authentication; payloads matched reviewed source bytes.",
+  "results": [
+    {
+      "url": "https://receiptwork-ma0914.github.io/receipt-cleanup-sample/make-ten/index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 7953,
+      "sha256": "7beac99de343c8a57df1f2527c02c9ab9d8ef9019037db0cfda35f82505d1eaa",
+      "matches_reviewed_source": true
+    },
+    {
+      "url": "https://receiptwork-ma0914.github.io/receipt-cleanup-sample/make-ten/app.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8",
+      "bytes": 9847,
+      "sha256": "6b5912047bb7db4979a071165b7191411c6e44405aeb86ff6bd4c6f4b13023c9",
+      "matches_reviewed_source": true
+    },
+    {
+      "url": "https://receiptwork-ma0914.github.io/receipt-cleanup-sample/make-ten/styles.css",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "bytes": 7594,
+      "sha256": "f192570b38a40c2c035513a49b575bc8eb816891ee0a760dc2fbf5277fc2c2ff",
+      "matches_reviewed_source": true
+    },
+    {
+      "url": "https://receiptwork-ma0914.github.io/receipt-cleanup-sample/make-ten/audio/quantity-0.mp3",
+      "status": 200,
+      "content_type": "audio/mp3",
+      "bytes": 21358,
+      "sha256": "c793781879c303bfed47556e9a144fab4d41fc383ccdf583f20f96d10d061b1d",
+      "matches_reviewed_source": true
+    }
+  ],
+  "scope": "Make Ten subset of the combined public-preview HTTP check; original result fields preserved."
+}

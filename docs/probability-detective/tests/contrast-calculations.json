@@ -1,0 +1,101 @@
+{
+  "method": "WCAG sRGB relative luminance calculation; declared CSS palette only, not rendered/composited browser audit",
+  "pairs": [
+    {
+      "label": "body text",
+      "foreground": "#172b39",
+      "background": "#f3f2e9",
+      "ratio": 12.968,
+      "minimum": 4.5,
+      "pass_": true
+    },
+    {
+      "label": "panel text",
+      "foreground": "#172b39",
+      "background": "#fffef9",
+      "ratio": 14.431,
+      "minimum": 4.5,
+      "pass_": true
+    },
+    {
+      "label": "muted text",
+      "foreground": "#465e6b",
+      "background": "#f3f2e9",
+      "ratio": 6.08,
+      "minimum": 4.5,
+      "pass_": true
+    },
+    {
+      "label": "green eyebrow",
+      "foreground": "#17614f",
+      "background": "#f3f2e9",
+      "ratio": 6.536,
+      "minimum": 4.5,
+      "pass_": true
+    },
+    {
+      "label": "green on pale-green",
+      "foreground": "#17614f",
+      "background": "#d9eee3",
+      "ratio": 6.047,
+      "minimum": 4.5,
+      "pass_": true
+    },
+    {
+      "label": "primary button text",
+      "foreground": "#ffffff",
+      "background": "#17614f",
+      "ratio": 7.345,
+      "minimum": 4.5,
+      "pass_": true
+    },
+    {
+      "label": "hover primary text",
+      "foreground": "#ffffff",
+      "background": "#104b3d",
+      "ratio": 10.02,
+      "minimum": 4.5,
+      "pass_": true
+    },
+    {
+      "label": "feedback text",
+      "foreground": "#172b39",
+      "background": "#e0edf5",
+      "ratio": 12.214,
+      "minimum": 4.5,
+      "pass_": true
+    },
+    {
+      "label": "input boundary",
+      "foreground": "#71877d",
+      "background": "#ffffff",
+      "ratio": 3.843,
+      "minimum": 3,
+      "pass_": true
+    },
+    {
+      "label": "button boundary",
+      "foreground": "#7e9288",
+      "background": "#fffef9",
+      "ratio": 3.273,
+      "minimum": 3,
+      "pass_": true
+    },
+    {
+      "label": "focus outline",
+      "foreground": "#a3420c",
+      "background": "#fffef9",
+      "ratio": 6.223,
+      "minimum": 3,
+      "pass_": true
+    },
+    {
+      "label": "focus on green panel",
+      "foreground": "#a3420c",
+      "background": "#d9eee3",
+      "ratio": 5.174,
+      "minimum": 3,
+      "pass_": true
+    }
+  ]
+}

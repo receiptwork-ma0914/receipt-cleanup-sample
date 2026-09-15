@@ -1,0 +1,95 @@
+[
+  {
+    "coinHistory": "Last six coin experiments, newest first\nFlips\tTheory (H)\tHeads\tTails\tObserved (H)\n1,000\t50%\t512\t488\t51.2%\n100\t50%\t45\t55\t45%\n10\t50%\t5\t5\t50%"
+  },
+  {
+    "twoDice": "Two dice sums: 1000 actual simulated trials.\nSum\tWays\tTheory\tCount\tObserved\n2\t1/36\t2.8%\t35\t3.5%\n3\t2/36\t5.6%\t49\t4.9%\n4\t3/36\t8.3%\t77\t7.7%\n5\t4/36\t11.1%\t103\t10.3%\n6\t5/36\t13.9%\t138\t13.8%\n7\t6/36\t16.7%\t196\t19.6%\n8\t5/36\t13.9%\t145\t14.5%\n9\t4/36\t11.1%\t94\t9.4%\n10\t3/36\t8.3%\t80\t8%\n11\t2/36\t5.6%\t55\t5.5%\n12\t1/36\t2.8%\t28\t2.8%\nTotal\t36/36\t100%\t1000\t100%"
+  },
+  {
+    "game": "1000 actual rounds: A scored in 317 rounds for 634 points (0.634 per round observed). B scored in 683 rounds for 683 points (0.683 per round observed). A short sample can disagree with the expected advantage."
+  },
+  {
+    "finalFeedback": "Your evidence fits the rules: A averages 0.4 × 3 = 1.2 points per round; B averages 0.6 × 2 = 1.2. They have equal expected points. A short match can still finish with different totals."
+  },
+  {
+    "controls": [],
+    "docWidth": 360,
+    "page": "coin",
+    "viewport": 360,
+    "width": 360
+  },
+  {
+    "controls": [],
+    "docWidth": 360,
+    "page": "dice",
+    "viewport": 360,
+    "width": 360
+  },
+  {
+    "controls": [],
+    "docWidth": 360,
+    "page": "game",
+    "viewport": 360,
+    "width": 360
+  },
+  {
+    "controls": [],
+    "docWidth": 768,
+    "page": "coin",
+    "viewport": 768,
+    "width": 768
+  },
+  {
+    "controls": [],
+    "docWidth": 768,
+    "page": "dice",
+    "viewport": 768,
+    "width": 768
+  },
+  {
+    "controls": [],
+    "docWidth": 768,
+    "page": "game",
+    "viewport": 768,
+    "width": 768
+  },
+  {
+    "controls": [],
+    "docWidth": 1280,
+    "page": "coin",
+    "viewport": 1280,
+    "width": 1280
+  },
+  {
+    "controls": [],
+    "docWidth": 1280,
+    "page": "dice",
+    "viewport": 1280,
+    "width": 1280
+  },
+  {
+    "controls": [],
+    "docWidth": 1280,
+    "page": "game",
+    "viewport": 1280,
+    "width": 1280
+  },
+  {
+    "gameReset": "Predict, then inspect the arithmetic.",
+    "finalReset": ""
+  },
+  {
+    "diceReset": "Two dice sums: theoretical distribution; no sample yet.\nSum\tWays\tTheory\tCount\tObserved\n2\t1/36\t2.8%\t—\t—\n3\t2/36\t5.6%\t—\t—\n4\t3/36\t8.3%\t—\t—\n5\t4/36\t11.1%\t—\t—\n6\t5/36\t13.9%\t—\t—\n7\t6/36\t16.7%\t—\t—\n8\t5/36\t13.9%\t—\t—\n9\t4/36\t11.1%\t—\t—\n10\t3/36\t8.3%\t—\t—\n11\t2/36\t5.6%\t—\t—\n12\t1/36\t2.8%\t—\t—\nTotal\t36/36\t100%\t—\t—"
+  },
+  {
+    "keyboardSample": "Current sample: counts and proportions\nOutcome\tCount\tObserved\tTheory\nHeads\t7\t70%\t70%\nTails\t3\t30%\t30%\nTotal\t10\t100%\t100%"
+  },
+  {
+    "focus": {
+      "label": "100 flips",
+      "outline": "solid",
+      "tag": "BUTTON",
+      "width": "3px"
+    }
+  }
+]
